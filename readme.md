@@ -1,4 +1,4 @@
-<!-- # 🏛️ Proyecto Semanal: Modelado de Entidades - Odontología
+<!-- # Proyecto Semanal: Modelado de Entidades - Odontología
 
 ## Descripción
 Este proyecto corresponde al dominio **Odontología** y tiene como objetivo modelar las entidades principales de un sistema de gestión odontológica usando **TypeScript**.  
