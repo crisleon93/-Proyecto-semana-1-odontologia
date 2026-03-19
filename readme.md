@@ -1,13 +1,13 @@
 <!-- # 🏛️ Proyecto Semanal: Modelado de Entidades - Odontología
 
-## 📌 Descripción
+## Descripción
 Este proyecto corresponde al dominio **Odontología** y tiene como objetivo modelar las entidades principales de un sistema de gestión odontológica usando **TypeScript**.  
 Se aplican conceptos de **interfaces, types, type unions, literales y funciones tipadas**, siguiendo las instrucciones del profesor.  
 El trabajo busca representar pacientes, tratamientos dentales, citas y su historial odontológico de manera clara, accesible y coherente.
 
 ---
 
-## 🎯 Entidades principales
+## Entidades principales
 - **Paciente**: contiene datos básicos y su historial odontológico.
 - **TratamientoDental**: describe los procedimientos realizados o programados.
 - **Cita**: organiza la agenda de atención con estados definidos.
@@ -15,7 +15,7 @@ El trabajo busca representar pacientes, tratamientos dentales, citas y su histor
 
 ---
 
-## 🔑 Tipos definidos
+## Tipos definidos
 - `TipoTratamiento`: `'limpieza' | 'extraccion' | 'ortodoncia' | 'implante'`
 - `EstadoCita`: `'pendiente' | 'completada' | 'cancelada'`
 
@@ -23,7 +23,7 @@ Estos tipos limitan los valores permitidos, evitando errores y asegurando consis
 
 ---
 
-## ⚙️ Funciones implementadas
+## Funciones implementadas
 - **crearPaciente**  
   - **QUÉ**: crea un objeto `Paciente`.  
   - **PARA**: instanciar pacientes con datos iniciales.  
@@ -41,7 +41,7 @@ Estos tipos limitan los valores permitidos, evitando errores y asegurando consis
 
 ---
 
-## 🧪 Datos de ejemplo
+## Datos de ejemplo
 ```ts
 const paciente1 = crearPaciente(1, 'Juan Pérez', 30);
 const paciente2 = crearPaciente(2, 'María Gómez', 25);
