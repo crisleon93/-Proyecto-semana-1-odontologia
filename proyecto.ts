@@ -1,4 +1,4 @@
-console.log('🏛️ PROYECTO SEMANAL: MODELADO DE ENTIDADES\n');
+console.log('PROYECTO SEMANAL: MODELADO DE ENTIDADES\n');
 
 // ============================================
 // 1. Entidades principales del dominio Odontología
